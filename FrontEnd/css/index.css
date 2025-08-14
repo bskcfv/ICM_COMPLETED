@@ -1,0 +1,91 @@
+/* Reset básico */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  background: #828689;
+  color: #333;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 20px;
+}
+
+section {
+  background: white;
+  border-radius: 8px;
+  padding: 20px 30px;
+  margin-left: 5%;
+  margin-bottom: 20px;
+  width: 100%;
+  max-width: 400px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+#container, #containerimc {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+}
+
+label {
+  margin-bottom: 6px;
+  font-weight: 600;
+  color: #555;
+}
+
+input[type="text"],
+input[type="number"],
+select {
+  padding: 10px 12px;
+  border: 1.8px solid #bbb;
+  border-radius: 5px;
+  font-size: 1rem;
+  transition: border-color 0.3s ease;
+}
+
+input[type="text"]:focus,
+input[type="number"]:focus,
+select:focus {
+  border-color: #0066ff;
+  outline: none;
+}
+
+button {
+  width: 100%;
+  padding: 12px 0;
+  background-color: #0066ff;
+  color: white;
+  font-weight: 700;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 1.1rem;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #004bb5;
+}
+
+#IMC {
+  font-size: 1.4rem;
+  font-weight: 600;
+  text-align: center;
+  color: #0066ff;
+  padding: 10px;
+}
+
+footer {
+  margin-top: auto;
+  padding: 10px;
+  font-size: 0.9rem;
+  color: #999;
+  text-align: center;
+  width: 100%;
+}
