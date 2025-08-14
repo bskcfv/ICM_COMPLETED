@@ -81,11 +81,19 @@ button:hover {
   padding: 10px;
 }
 
+.imagen-ajustada {
+  width: 300px;  /* ancho fijo */
+    height: auto;  /* mantiene proporción */
+    display: block;
+    margin: 0 auto; 
+}
+
+
 footer {
   margin-top: auto;
   padding: 10px;
   font-size: 0.9rem;
-  color: #999;
+  color: #000000;
   text-align: center;
   width: 100%;
 }
